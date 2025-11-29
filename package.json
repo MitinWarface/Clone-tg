@@ -1,0 +1,14 @@
+{
+  "name": "telegram-messenger",
+  "version": "1.0.0",
+  "description": "Full-stack Telegram-like messenger",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd backend && npm start",
+    "dev": "npm run build && npm start",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
